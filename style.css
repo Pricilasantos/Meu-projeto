@@ -1,52 +1,63 @@
-body{
+body {
     color: white;
     background-color: black;
     font-family: Arial, Helvetica, sans-serif;
 }
-ul{
+
+ul {
     display: flex;
     justify-content: space-between;
     list-style-type: none;
     align-items: center;
     padding: 16px;
 }
+
 a {
     color: white;
     text-decoration: none;
 }
-header img{
+
+header img {
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    border: 5px solid #5bbe42; 
+    border: 5px solid #5bbe42;
 }
-.center{
+
+.center {
     text-align: center;
 }
+
 h1 {
     color: #5bbe42;
 }
 
-footer img{
+footer img {
     width: 40px;
     height: 40px;
+    color: #5bbe42;
 }
-footer{
+
+footer {
     display: flex;
     justify-content: center;
     bottom: 0;
     left: 0;
 }
-footer a{
-    margin: 20px; 
+
+footer a {
+    margin: 20px;
     text-align: center;
-} 
+}
+
 footer p {
     margin-top: 2px;
 }
-container{
+
+container {
     padding: 0px 50px;
 }
+
 nav a:hover {
     color: #5bbe42;
 }
